@@ -29,6 +29,21 @@ console.log(arg);
 arg = 123;
 console.log(arg);
 
+
+//#region 默认类型/类型推断 为设置的值的类型，不能再赋其他类型的值
+console.log("----------默认类型/类型推断");
+let argd = "hello default value";
+console.log(argd);
+//#endregion
+
+//#region 任意类型
+console.log("----------任意类型");
+let argx:any = "any type";
+console.log(argx);
+argx = 123;
+console.log(argx);
+//#endregion
+
 //#region 解决多文件冲突问题
 export default {}
 //#endregion
