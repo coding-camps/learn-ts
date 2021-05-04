@@ -1,4 +1,5 @@
 
+//#region 函数类型 void 和 never
 function test():void {
     console.log("return nothing");
 }
@@ -22,4 +23,4 @@ function infiniteLoop():never {
     }
 }
 // infiniteLoop();
-
+//#endregion
