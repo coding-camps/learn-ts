@@ -8,9 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "pinia": "^2.0.6",
+    "pinia-plugin-persistedstate": "^1.0.2",
     "vue": "^3.2.23",
-    "vue-router": "^4.0.12",
-    "pinia": "^2.0.6"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
