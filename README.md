@@ -35,5 +35,6 @@
 > npm install vue-router@4 -s  
 > 或者 npm install vue-router@next -s  
 
-引入状态管理 pinia，以便解决跨组件的状态共享。
+引入状态管理 pinia，以便解决跨组件的状态共享。同时引入pinia持久化插件。  
 > npm i pinia -s
+> npm i pinia-plugin-persistedstate -s
