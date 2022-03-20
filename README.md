@@ -40,3 +40,16 @@
 > npm i pinia-plugin-persistedstate -s  
 
 在vite.config.ts中配置服务端代理。具体查询文档。  
+
+## Nest服务端
+
+全局安装Nest脚手架  
+> npm i -g @nestjs/cli  
+安装过程会提示使用哪个包管理器（npm/yarn/pnpm）。  
+
+创建项目 mock server  
+> nest new nest-server  
+
+仔`src/main.ts`中修改服务器端口，由默认端口3000改为8088。  
+> npm run start:dev  
+> npm run 
